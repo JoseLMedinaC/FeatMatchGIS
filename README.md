@@ -13,7 +13,7 @@ The code is implemented using Python with the `mpi4py`, `numpy`, and `opencv-pyt
 1. **`script.py`**:
    - Implements MPI-based parallel processing for image filtering.
    - Steps:
-     - Reads an input image (`lena.jpg`) on the root process.
+     - Reads an input image (`lena.png`) on the root process.
      - Divides the image into overlapping patches and scatters them to worker processes.
      - Applies FFT, low-pass filtering, and IFFT to each patch.
      - Trims overlaps and reconstructs the image on the root process.
@@ -26,7 +26,7 @@ The code is implemented using Python with the `mpi4py`, `numpy`, and `opencv-pyt
 ### **Images**
 
 - **Input Image**:
-  - `lena.jpg`: Original grayscale image.
+  - `lena.png`: Original RGB image.
 - **Output Images**:
   - `reconstructed_image.png`: Final reconstructed image after processing.
   - `spectrogram_rank_0.png`, `spectrogram_rank_1.png`, `spectrogram_rank_2.png`, `spectrogram_rank_3.png`: Spectrograms of image patches processed by different ranks.
@@ -88,7 +88,7 @@ sbatch final.sh
 ## **Code Workflow**
 
 1. **Image Reading**:
-   - The root process reads the input image (`lena.jpg`) and divides it into overlapping patches.
+   - The root process reads the input image (`lena.png`) and divides it into overlapping patches.
 
 2. **Patch Distribution**:
    - Patches are scattered to worker processes using MPI.
