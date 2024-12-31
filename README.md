@@ -30,7 +30,13 @@ The code is implemented using Python with the `mpi4py`, `numpy`, and `opencv-pyt
 - **Output Images**:
   - `reconstructed_image.png`: Final reconstructed image after processing.
   - `spectrogram_rank_0.png`, `spectrogram_rank_1.png`, `spectrogram_rank_2.png`, `spectrogram_rank_3.png`: Spectrograms of image patches processed by different ranks.
+### **Input vs Output Example**
 
+#### **Input Image:**
+![Input Image](lena.png)
+
+#### **Output Image:**
+![Reconstructed Image](reconstructed_image.png)
 ---
 
 ## **Requirements**
