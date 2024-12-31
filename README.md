@@ -57,8 +57,8 @@ The code is implemented using Python with the `mpi4py`, `numpy`, and `opencv-pyt
 ### **1. Clone the Repository**
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/JoseLMedinaC/MPI4HPC
+cd MPI4HPC
 ```
 
 ### **2. Prepare the Conda Environment**
