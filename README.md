@@ -50,7 +50,7 @@ If you wish to deepen your understanding of **Street-to-GIS generative AI** and 
 
 @inproceedings{medina2025semidense,
   title={Semi-Dense Feature Matching via Mamba-Based Knowledge Distillation},
-  author={Medina, Jos{\'e} and Zadegan, Alireza Akhavi and Hadachi, Amnir},
+  author={Medina, Jos{\'e} and Sokk, Helena and Hadachi, Amnir},
   booktitle={2025 IEEE International Conference on Machine Learning and Applications (ICMLA)},
   year={2025},
   organization={IEEE}
