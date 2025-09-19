@@ -19,14 +19,46 @@ Precise GIS layers are essential for smart-city services and autonomous navigati
   - `numpy`
   - `opencv-python`
 ---
-
 ## **License**
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
+## Further Reading
+
+If you wish to deepen your understanding of **Street-to-GIS generative AI** and **GIS alignment**, consider the following works:
+
+- Zadegan, A. A., Medina, J., & Hadachi, A. (2025). *Street2GIS: Multimodal Generative Framework for Pedestrian Infrastructure Mapping*. In **2025 Joint Urban Remote Sensing Event (JURSE)** (pp. 1–5). IEEE.  
+  [BibTeX reference](#bibtex-street2gis)
+
+- Medina, J., Zadegan, A. A., & Hadachi, A. (2025). *Semi-Dense Feature Matching via Mamba-Based Knowledge Distillation*. Accepted at **ICMLA 2025**.  
+  [Conference website](https://www.icmla-conference.org/icmla25/)  
+
+---
+
+### References
+
+#### Street2GIS
+@inproceedings{zadegan2025street2gis,
+  title={Street2GIS: Multimodal Generative Framework for Pedestrian Infrastructure Mapping},
+  author={Zadegan, Alireza Akhavi and Medina, Jos{\'e} and Hadachi, Amnir},
+  booktitle={2025 Joint Urban Remote Sensing Event (JURSE)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}
+@inproceedings{medina2025semidense,
+  title={Semi-Dense Feature Matching via Mamba-Based Knowledge Distillation},
+  author={Medina, Jos{\'e} and Zadegan, Alireza Akhavi and Hadachi, Amnir},
+  booktitle={2025 IEEE International Conference on Machine Learning and Applications (ICMLA)},
+  year={2025},
+  organization={IEEE}
+}
+
+
+---
 
 ## **Acknowledgments**
 
-Special thanks to the HPC course team and the contributors of `mpi4py` and `opencv-python` for enabling this project.
+The authors acknowledge the support of the European Union and Estonian Research Council via project TEM-TA101 and the collaboration project LLTAT21278 with Bolt Technologies.
 
