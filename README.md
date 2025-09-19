@@ -35,7 +35,6 @@ If you wish to deepen your understanding of **Street-to-GIS generative AI** and 
   [Conference website](https://www.icmla-conference.org/icmla25/)  
 
 ---
-
 ### References
 
 #### Street2GIS
@@ -48,7 +47,7 @@ If you wish to deepen your understanding of **Street-to-GIS generative AI** and 
   year={2025},
   organization={IEEE}
 }
-```bibtex
+
 @inproceedings{medina2025semidense,
   title={Semi-Dense Feature Matching via Mamba-Based Knowledge Distillation},
   author={Medina, Jos{\'e} and Zadegan, Alireza Akhavi and Hadachi, Amnir},
@@ -56,8 +55,7 @@ If you wish to deepen your understanding of **Street-to-GIS generative AI** and 
   year={2025},
   organization={IEEE}
 }
-
-
+```
 ---
 
 ## **Acknowledgments**
