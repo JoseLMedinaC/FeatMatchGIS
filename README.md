@@ -29,9 +29,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 If you wish to deepen your understanding of **Street-to-GIS generative AI** and **GIS alignment**, consider the following works:
 
 - Zadegan, A. A., Medina, J., & Hadachi, A. (2025). *Street2GIS: Multimodal Generative Framework for Pedestrian Infrastructure Mapping*. In **2025 Joint Urban Remote Sensing Event (JURSE)** (pp. 1–5). IEEE.  
-  [BibTeX reference](#bibtex-street2gis)
+  [Paper](https://ieeexplore.ieee.org/abstract/document/11076041)
 
-- Medina, J., Zadegan, A. A., & Hadachi, A. (2025). *Semi-Dense Feature Matching via Mamba-Based Knowledge Distillation*. Accepted at **ICMLA 2025**.  
+- Medina, J., Sokk, H., & Hadachi, A. (2025). *Semi-Dense Feature Matching via Mamba-Based Knowledge Distillation*. Accepted at **ICMLA 2025**.  
   [Conference website](https://www.icmla-conference.org/icmla25/)  
 
 ---
@@ -39,6 +39,7 @@ If you wish to deepen your understanding of **Street-to-GIS generative AI** and 
 ### References
 
 #### Street2GIS
+```bibtex
 @inproceedings{zadegan2025street2gis,
   title={Street2GIS: Multimodal Generative Framework for Pedestrian Infrastructure Mapping},
   author={Zadegan, Alireza Akhavi and Medina, Jos{\'e} and Hadachi, Amnir},
@@ -47,6 +48,7 @@ If you wish to deepen your understanding of **Street-to-GIS generative AI** and 
   year={2025},
   organization={IEEE}
 }
+```bibtex
 @inproceedings{medina2025semidense,
   title={Semi-Dense Feature Matching via Mamba-Based Knowledge Distillation},
   author={Medina, Jos{\'e} and Zadegan, Alireza Akhavi and Hadachi, Amnir},
